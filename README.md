@@ -1,4 +1,7 @@
-# belly-button-challenge: Module 14
+# Belly Button Biodiversity
+belly-button-challenge: Module 14
+
+![bio](http://robdunnlab.com/wp-content/uploads/microbes-sem.jpg)
 
 In this assignment, we will build an interactive dashboard to explore the [Belly Button Biodiversity](http://robdunnlab.com/projects/belly-button-biodiversity/) dataset to an external site., which catalogs the microbes that colonize human navels.
 
