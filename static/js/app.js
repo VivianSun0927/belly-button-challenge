@@ -42,7 +42,7 @@ d3.json(url).then(function(data) {
       });
   };
   
-  // Create a function that populates metadata info
+  // Create a function that displays the metadata info
   function buildMetadata(sample) {
   
       // Use D3 to retrieve all of the data
@@ -54,7 +54,7 @@ d3.json(url).then(function(data) {
           // Filter based on the value of the sample
           let value = metadata.filter(result => result.id == sample);
   
-          // Console log the array of metadata objects after the have been filtered
+          // Console log the array of metadata objects after they have been filtered
           console.log(value)
   
           // Get the first index from the array
@@ -98,7 +98,7 @@ d3.json(url).then(function(data) {
           // Console log the data
           console.log(otu_ids,otu_labels,sample_values);
   
-          // Set top ten items to display in descending order
+          // Set the top ten items to display in descending order
           let yticks = otu_ids.slice(0,10).map(id => `OTU ${id}`).reverse();
           let xticks = sample_values.slice(0,10).reverse();
           let labels = otu_labels.slice(0,10).reverse();
@@ -122,7 +122,7 @@ d3.json(url).then(function(data) {
       });
   };
   
-  // Function that builds the bubble chart
+  // Create function that builds the bubble chart
   function buildBubbleChart(sample) {
   
       // Use D3 to retrieve all of the data
